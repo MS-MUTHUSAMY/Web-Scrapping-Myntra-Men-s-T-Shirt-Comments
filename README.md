@@ -9,7 +9,6 @@ This Python script enables users to scrape T-shirt review data from Myntra's web
 # Table of Contents
 
 * Overview
-* Setup
 * Dependencies
 * Usage
 * Output
@@ -19,21 +18,6 @@ This Python script enables users to scrape T-shirt review data from Myntra's web
 
 Web scraping is the process of extracting data from websites. This script uses Selenium, a powerful automation tool, to navigate Myntra's web pages, extract relevant information such as product details, ratings, reviews, and save it in a structured format.
 
-## Setup
-
-Clone the repository to your local machine:
-bash
-Copy code
-git clone https://github.com/yourusername/myntra-tshirt-scraper.git
-Navigate to the project directory:
-bash
-Copy code
-cd myntra-tshirt-scraper
-Install the required dependencies:
-bash
-Copy code
-pip install pandas selenium
-Ensure you have the Chrome web browser installed.
 
 ## Dependencies
 
@@ -50,10 +34,14 @@ Customize the get_product_link() and over_all_details() functions if necessary.
 
 ## Run the script:
 
-bash
-Copy code
 python myntra_scraper.py
-The script will start scraping T-shirt details and reviews from Myntra's website.
+
+* The script will start scraping T-shirt details and reviews from Myntra's website.
+* In first step to scarpe the T-shirt links of give page range and save to product_links.csv.
+* Next step to get the one by one T-shirt link from product_links.csv, Using selenium, chrome web driver to get the necessary details which we want.
+* Go to review section to scrape the ratings, reviews, user names, review dates, and image links.
+* These data are saved as myntra_mens_t_shirt_details.csv.
+
 
 # Output
 
