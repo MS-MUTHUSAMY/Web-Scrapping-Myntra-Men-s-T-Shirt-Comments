@@ -1,6 +1,6 @@
 # Web-Scrapping-Myntra-T-Shirt-Reviews-Data-Harvesting
 
-Below is a step-by-step guide for creating a README file for your Python web scraping project aimed at harvesting T-shirt review data from Myntra. This README will provide users with clear instructions on how to set up, run, and understand your code.
+Below is a step-by-step guide for your Python web scraping project aimed at harvesting T-shirt review data from Myntra. This README will provide users with clear instructions on how to set up, run, and understand your code.
 
 # Myntra T-Shirt Review Data Scraper
 
