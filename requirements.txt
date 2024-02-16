@@ -6,7 +6,6 @@ streamlit
 streamlit_option_menu
 pymongo
 selenium
-webdriver
 selenium.webdriver.common.by
 By
 time
