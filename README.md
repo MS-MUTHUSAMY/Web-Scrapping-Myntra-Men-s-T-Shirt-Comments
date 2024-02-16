@@ -34,7 +34,7 @@ Customize the get_product_link() and over_all_details() functions if necessary.
 
 ## Run the script:
 
-python myntra_scraper.py
+python main.py
 
 * The script will start scraping T-shirt details and reviews from Myntra's website.
 * In first step to scarpe the T-shirt links of give page range and save to product_links.csv.
