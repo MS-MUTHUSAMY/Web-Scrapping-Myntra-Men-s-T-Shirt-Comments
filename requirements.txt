@@ -1,0 +1,13 @@
+pandas 
+numpy
+seaborn
+plotly
+streamlit 
+streamlit_option_menu
+pymongo
+python
+selenium
+webdriver
+selenium.webdriver.common.by
+By
+time
