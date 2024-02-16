@@ -12,7 +12,7 @@ This Python script enables users to scrape T-shirt review data from Myntra's web
 * Dependencies
 * Usage
 * Output
-* License
+
 
 ## Overview
 
@@ -28,7 +28,7 @@ Web scraping is the process of extracting data from websites. This script uses S
   
 # Usage
 
-Open the myntra_scraper.py file in a text editor.
+Open the main.py file in a text editor.
 
 Customize the get_product_link() and over_all_details() functions if necessary.
 
@@ -51,9 +51,6 @@ The script will generate two CSV files:
 
 **myntra_mens_t_shirt_details.csv:** Contains the extracted T-shirt details including product name, description, prices, ratings, reviews, user names, review dates, and image links.
 
-# License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Links 
 
