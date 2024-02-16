@@ -48,6 +48,7 @@ python myntra_scraper.py
 The script will generate two CSV files:
 
 **product_links.csv:** Contains the links to individual T-shirt product pages.
+
 **myntra_mens_t_shirt_details.csv:** Contains the extracted T-shirt details including product name, description, prices, ratings, reviews, user names, review dates, and image links.
 
 # License
